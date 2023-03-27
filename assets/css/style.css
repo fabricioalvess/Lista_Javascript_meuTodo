@@ -1,0 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+/*Formulario*/
+.container{
+    width: 100%;
+    min-height: 1000px;
+    background-color: #efefef;
+    background-image: url('/assets/img/imagemDeFundo.png');
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.container .campoDeTexto{
+    margin: 100px 0 0 0;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #dec4a1c7;
+    border-top-right-radius: 100px;
+    box-shadow:  0 0 10px 1px #30302fc7;
+}
+.campoDeTexto form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #BA7BA1;
+
+    
+}
+.campoDeTexto form .tituloForm{
+    font-size: 1rem;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+.campoDeTexto form .textoForm{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.botaoForm{
+    width: 100%;
+    margin: 0px 0 ;
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+
+}
+.botaoForm:hover{
+    background-color: #B4287C;
+    color: white;
+}
+.campoDeTexto  h2{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/*Lista*/
+.campoLista{
+    box-shadow:  10px 10px  10px 0 #464645c7;
+    width: 50%;
+    min-height: 400px;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c28caeba;
+}
+.listaDoForm{
+    width: 80%;
+    
+    
+    
+}
+.listaDoForm h2{
+    text-align: center;
+    font-weight: bold;
+}
+.campoLista .listaDoForm li{
+    padding: 5px;
+    margin: 2px;
+    font-size: 1rem;
+    color: black;  
+    font-weight: 300;
+    list-style: none;
+    background-color: #EDCF8E;
+}
+.campoLista .listaDoForm li strong{
+    font-weight: bold;
+    padding-right: 10px;
+}
