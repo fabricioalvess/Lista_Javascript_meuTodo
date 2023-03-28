@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:  #dec4a1c7;
+    background-color:  #dec4a1ee;
     border-top-right-radius: 100px;
     box-shadow:  0 0 10px 1px #30302fc7;
 }
@@ -40,7 +40,7 @@
     justify-content: center;
     padding: 30px;
     border-radius: 10px;
-    background-color: #BA7BA1;
+    background-color: #ba7ba1e7;
 
     
 }
@@ -85,7 +85,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: #c28caeba;
+    background-color: #c28caee6;
 }
 .listaDoForm{
     width: 80%;
