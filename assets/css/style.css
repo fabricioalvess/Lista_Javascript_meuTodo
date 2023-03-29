@@ -129,3 +129,23 @@
     color: white;
     font-weight: bold;
 }
+.rodape{
+    padding: 50px;
+}
+@media (max-width: 600px){
+
+    .container .campoDeTexto{
+        margin:  0;
+        width: 90%;
+    }
+    .campoLista{
+        max-width: 90%;
+        min-width: 90%;
+
+    }
+    .container{
+        padding: 50px 0;
+    }
+    
+
+}
