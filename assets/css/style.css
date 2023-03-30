@@ -11,10 +11,7 @@
 .container{
     width: 100%;
     min-height: 1000px;
-    background-color: #efefefe1;
-    background-image: url('/assets/img/imagemDeFundo.png');
-    background-attachment: fixed;
-    background-position: center;
+    background:url('/assets/img/imagemDeFundo.png') #d85cce fixed center ;
     display: flex;
     justify-content:flex-start;
     align-items: center;
