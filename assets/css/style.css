@@ -10,7 +10,7 @@
 /*Formulario*/
 .container{
     width: 100%;
-    min-height: 1000px;
+    min-height: 1001px;
     background:url('/assets/img/imagemDeFundo.png') #d85cce fixed center ;
     display: flex;
     justify-content:flex-start;
