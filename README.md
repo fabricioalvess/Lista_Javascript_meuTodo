@@ -1,2 +1,14 @@
-# Lista_Javascript_meuTodo
- mao na masse e por em pratica alguns conceitos de javascript. Vamos criar um To do do zero adicionar , listar, editar e excluir
+
+
+| :placard: ToDo |     |
+| -------------  | --- |
+| :sparkles: Nome        | **To Do**
+| :label: Tecnologias | javascript, html, css 
+| :rocket: URL         | https://fabricioalvess.github.io/Lista_Javascript_meuTodo/
+
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](#vitrinedev)
+
+## Detalhes do projeto
+
