@@ -8,7 +8,7 @@
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](#vitrinedev)
+![](https://github.com/fabricioalvess/Lista_Javascript_meuTodo/blob/master/assets/img/printdosite.png?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
