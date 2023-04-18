@@ -26,7 +26,7 @@ formulario.addEventListener('submit', evento =>{
    if(existe){
         novoItem.id = existe.id
         atualizaElemento(novoItem)
-        itens[existe.id] = novoItem
+        itens[itens.findIndex(elemento => elemento.id === existe.id )]= novoItem
    }else{
         novoItem.id = itens[itens.length - 1]? (itens[itens.length - 1]).id + 1 : 0;
         criarNovoElemento(novoItem)
@@ -47,7 +47,7 @@ function criarNovoElemento(props){
     const li = document.createElement('li')
     const strong = document.createElement('strong')
     strong.innerHTML = props.quantidade
-    strong.dataset.id=props.id
+    strong.dataset.id = props.id
     li.appendChild(strong)
     li.innerHTML += props.produto
     li.appendChild(botaoDeletar(props.id))
@@ -66,6 +66,7 @@ function botaoDeletar(id){
 
     botaoDeletar.addEventListener('click', x =>{
        var elementoSelecionado = x.target.parentElement
+       
        DeletarItemLista(elementoSelecionado, id)
     })
 
